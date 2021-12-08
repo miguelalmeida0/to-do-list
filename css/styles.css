@@ -1,29 +1,56 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
 
 body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+font-family: 'Readex Pro', sans-serif;
+text-align: center;
+background-image: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+background-size: cover;
+color: black;
+background-color: lightgrey;
 }
+
+
 
 .container{
 padding: 20px;
-width: 300px;
-margin: 0 auto;
-margin-top: 40px;
-background: white;
-border-radius: 5px;}
+margin: auto;
+width: 60%;
+margin-top: 20%;
+border-radius: 20px;
+text-align: center;
+align-items: center;
+background-color: #C3D3DA;
+border-style: solid;
+box-shadow: 0 8px 6px -2px #5E7A84;
+color: lightgrey;
+}
+
+h2 {
+  color: black;
+}
+
+.paragraph {
+  font-weight: 400;
+  color: black;
+}
 
 form {
 display: inline-block;
+text-align: center;
+margin: 0 auto;
+font-style: normal;
+
 }
 
 input{
 padding: 4px 15px 4px 5px;
+text-align: center;
+font-style: normal;
 }
 
 #button{
 display: inline-block;
-background-color:#fc999b;
+background-color: #706161;
 color:#ffffff;
 border-radius: 5px;
 text-align:center;
